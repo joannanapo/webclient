@@ -5,5 +5,13 @@
 [class*="cvc"] .cvc.stripe-error {
     border-color: #c0392b;
     color: #c0392b;
+  &::placeholder {
+    color: #c0392b;
+  }
 }
-
+.form-control.error::placeholder {
+    color: rgba(0, 0, 0, 0.38);
+}
+.error-msg{
+  text-align: right;
+}
