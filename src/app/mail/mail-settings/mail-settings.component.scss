@@ -202,6 +202,12 @@ $error-red: #e94e4c;
         height: 2.625rem;
       }
     }
+    &#filterFolderDropdownMenuBtn{
+      height: auto;
+      min-height: 32px;
+      padding-right: 25px;
+      word-break: break-all;
+    }
   }
 
   .dropdown-item {
