@@ -271,11 +271,12 @@
   "billing_info": {
     "pending_payment_alert": "Uw betaling is in behandeling, maar u kunt nog steeds een gratis account maken en uw account wordt geüpgraded naar premium nadat de betaling is geverifieerd",
     "bitcoin_sent_timer": "BTC verzonden na timer gaat verloren!",
-    "payment_information": "betalingsinformatie",
+    "billing_information": "facturatie gegevens",
     "plan": "Plan",
     "billing": "Billing",
     "price": "Prijs",
     "payment_method": "Betalingsmiddel:",
+    "payment_information": "betalingsinformatie",
     "name_on_card": "Naam op Care",
     "month": "Maand",
     "year": "Jaar",

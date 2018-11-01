@@ -268,11 +268,12 @@
   "billing_info": {
     "pending_payment_alert": "Tu pago está pendiente, aunque de todos modos puedes crear una cuenta gratuita y tu cuenta será actualizada a premium luego de que tu pago sea verificado.",
     "bitcoin_sent_timer": "¡BTC enviado después del contador de tiempo se perderá!",
-    "payment_information": "Información de pago",
+    "billing_information": "Datos de facturación",
     "plan": "Plan",
     "billing": "Facturación",
     "price": "Precio",
     "payment_method": "Método de pago:",
+    "payment_information": "Información de pago",
     "name_on_card": "Nombre en la tarjeta",
     "month": "Mes",
     "year": "Año",

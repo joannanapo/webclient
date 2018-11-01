@@ -271,11 +271,12 @@
   "billing_info": {
     "pending_payment_alert": "Il pagamento è in sospeso, ma è comunque possibile creare un account gratuito e il tuo account verrà aggiornato a premium dopo la verifica del pagamento",
     "bitcoin_sent_timer": "Il BTC inviato dopo il timer andrà perso!",
-    "payment_information": "Informazioni sul pagamento",
+    "billing_information": "Informazioni di fatturazione",
     "plan": "Piano",
     "billing": "Fatturazione",
     "price": "Prezzo",
     "payment_method": "Metodo di pagamento:",
+    "payment_information": "Informazioni sul pagamento",
     "name_on_card": "Nome su cura",
     "month": "Mese",
     "year": "Anno",

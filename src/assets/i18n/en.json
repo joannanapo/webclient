@@ -270,11 +270,12 @@
   "billing_info": {
     "pending_payment_alert": "Your payment is pending, But still you can create a free account and your account would be upgraded to premium after payment is verified",
     "bitcoin_sent_timer": "BTC sent after timer will be lost!",
-    "payment_information": "Payment Information",
+    "billing_information": "Billing Information",
     "plan": "Plan",
     "billing": "Billing",
     "price": "Price",
     "payment_method": "Payment Method:",
+    "payment_information": "Payment Information",
     "name_on_card": "Name on Care",
     "month": "Month",
     "year": "Year",

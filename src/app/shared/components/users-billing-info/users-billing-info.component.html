@@ -5,7 +5,7 @@
       <div class="row justify-content-center">
         <div class="col-sm-12 col-md-10 position-sm-static px-sm-5 px-md-0">
           <h6 class="text-uppercase text-secondary m-0">
-            <strong translate="billing_info.payment_information">Billing Information</strong>
+            <strong translate="billing_info.billing_information">Billing Information</strong>
           </h6>
         </div>
       </div>
@@ -47,21 +47,7 @@
                   <div class="billing-overview-row payment-method-row">
                     <label class="billing-overview-label" translate="billing_info.payment_method">Payment Method: </label>
                     <div class="billing-overview-val text-secondary">
-                      <div class="btn-dropdown btn-dropdown-lg btn-dropdown-select">
-                        <div ngbDropdown class="payment-select-dropdown">
-                          <button ngbDropdownToggle role="button"
-                                  id="paymentDropdownMenuButton">{{paymentMethod}}
-                          </button>
-                          <div ngbDropdownMenu aria-labelledby="paymentDropdownMenuButton">
-                            <a class="dropdown-item text-muted">
-                              <em>Stripe (Credit/Debit Card)</em>
-                            </a>
-                            <a class="dropdown-item text-muted">
-                              <em>Bitcoin</em>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
+                      <strong>Stripe</strong>
                     </div>
                   </div>
                 </div>
@@ -99,7 +85,7 @@
 
               <div class="form-step-card" [class]="stripePaymentValidation.param" *ngIf="paymentMethod === paymentMethodType.STRIPE">
                 <h3 class="form-step-card-title text-dark mb-3">
-                  <strong translate="billing_info.payment_method">Payment Information</strong>
+                  <strong translate="billing_info.payment_information">Payment Information</strong>
                 </h3>
                 <div class="form-group">
                   <label for="personName" class="d-block text-muted text-left hidden-sm-up">Name on

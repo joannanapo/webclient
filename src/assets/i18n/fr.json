@@ -270,11 +270,12 @@
   "billing_info": {
     "pending_payment_alert": "Votre paiement est en attente, mais vous pouvez quand même créer un compte gratuit et votre compte sera mis à jour vers un compte Premium après vérification du paiement.",
     "bitcoin_sent_timer": "Les BTC envoyés au-delà du timer seront perdus!",
-    "payment_information": "Informations de Paiement",
+    "billing_information": "détails de facturation",
     "plan": "Plan",
     "billing": "Facturation",
     "price": "Prix",
     "payment_method": "Mode de Paiement:",
+    "payment_information": "Informations de Paiement",
     "name_on_card": "Nom sur la Carte",
     "month": "Mois",
     "year": "Année",
