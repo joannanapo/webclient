@@ -137,7 +137,7 @@
                                 id="filterFolderDropdownMenuBtn" role="button"
                                 [disabled]="!createFilterForm.controls['moveTo'].value">
                           <i class="icon icon-{{folderIcons[createFilterData.folder] || 'icon-folder'}}"></i>
-                          {{createFilterData.folder}}
+                          <span>{{createFilterData.folder}}</span>
                         </button>
                         <div ngbDropdownMenu aria-labelledby="filterFolderDropdownMenuBtn">
                           <a (click)="createFilterData.folder = mailFolderType.INBOX" class="dropdown-item has-icon">

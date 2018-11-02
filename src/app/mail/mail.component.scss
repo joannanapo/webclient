@@ -218,7 +218,6 @@
   color: $menu-link;
   min-height: 2.5rem;
   line-height: 1;
-  word-break: break-all;
 
   .is-sidebar-expanded & {
     // padding-left: 0.938rem;
@@ -319,7 +318,10 @@
 
   .mailbox-sidebar-nav-label {
     display: inline-block;
-    width: 100%;
+    white-space: nowrap;
+    width: 170px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
     @include media("<ipad", ">sm") {
       display: none;
@@ -327,6 +329,12 @@
       .is-sidebar-expanded & {
         display: block;
       }
+    }
+  }
+  @include media("<ipad") {
+    padding-left: 2.2rem;
+    .mailbox-sidebar-nav-label{
+      width: 145px;
     }
   }
 }
@@ -698,8 +706,15 @@
     }
   }
   .mailbox-dropdown .dropdown-item{
-    white-space: normal;
-    word-break: break-all;
+    white-space: nowrap;
+    width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  @include media("<ipad") {
+    .mailbox-dropdown .dropdown-item{
+      width: 204px;
+    }
   }
 }
 
@@ -937,8 +952,6 @@
     border-bottom: 0;
     font-size: 0.875rem;
     line-height: 1.2;
-    white-space: normal;
-    word-break: break-all;
 
     // &:not(:last-of-type) {
     // 	margin-bottom: 0.5rem;
